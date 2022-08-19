@@ -15,7 +15,7 @@ const VentaSchema = new mongoose.Schema({
         required: true
       },
       producto:{
-        type: String,
+        type: Array,
         required: true
       },
       total:{
