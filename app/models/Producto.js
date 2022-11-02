@@ -17,6 +17,10 @@ const ProductoSchema = new mongoose.Schema({
       stock:{
         type: Number,
         required: true 
+      },
+      urlmg:{
+        type: String,
+        required: false 
       }
 
 });
